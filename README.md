@@ -34,19 +34,14 @@
     composer install
     ```
 
-4. Выполните миграции базы данных (если применимо):
 
-    ```bash
-    php bin/console doctrine:migrations:migrate
-    ```
-
-5. Запустите сервер разработки Symfony:
+4. Запустите сервер разработки Symfony:
 
     ```bash
     symfony server:start
     ```
 
-6. Откройте [http://localhost:8000](http://localhost:8000) в вашем веб-браузере, чтобы увидеть приложение в действии.
+5. Откройте [http://localhost:8000](http://localhost:8000) в вашем веб-браузере, чтобы увидеть приложение в действии.
 
 ## Использование
 
