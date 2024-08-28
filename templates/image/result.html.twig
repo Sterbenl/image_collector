@@ -1,0 +1,18 @@
+
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+    <div class="row">
+        {% for image in images %}
+            <div class="col-md-3">
+                <img src="{{ image }}" alt="" class="img-fluid">
+                <p>{{ imageSizes[loop.index0] }} байт</p>
+            </div>
+        {% endfor %}
+    </div>
+    <p>На странице обнаружено {{ images|length }} изображений.</p>
+    <p>Общий размер изображений: {{ totalImageSize }}</p>
+</div>

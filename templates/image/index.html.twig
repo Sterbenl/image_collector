@@ -1,0 +1,14 @@
+
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+    <h1>Введите URL страницы</h1>
+    <form action="{{ path('image_process') }}" method="post">
+        <label for="url">Введите URL страницы:</label>
+        <input type="text" id="url" name="url">
+        <button type="submit">Найти изображения</button>
+    </form>
+</div>

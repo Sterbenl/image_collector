@@ -1,0 +1,8 @@
+image_index:
+    path: /image
+    controller: App\Controller\ImageController::index
+
+image_process:
+    path: /image/process
+    controller: App\Controller\ImageController::process
+    methods: [POST]
