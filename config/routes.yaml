@@ -1,5 +1,5 @@
 image_index:
-    path: /image
+    path: /
     controller: App\Controller\ImageController::index
 
 image_process:
