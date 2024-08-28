@@ -13,7 +13,6 @@
 - [PHP](https://www.php.net/) (7.4 или выше)
 - [Composer](https://getcomposer.org/)
 - [Symfony CLI](https://symfony.com/download)
-- [MySQL](https://www.mysql.com/) (или другая поддерживаемая СУБД)
 
 ## Установка
 
